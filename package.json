@@ -1,0 +1,32 @@
+{
+  "name": "com.ewigedreamer.dotweenutility",
+  "version": "1.0.0",
+  "displayName": "DOTween Utility",
+  "description": "Utility for DOTween Package",
+  "unity": "2021.3",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "unity",
+    "dotween",
+    "utility"
+  ],
+  "samples": [
+    {
+      "displayName": "Components usage",
+      "description": "Contains sample of usage of Components",
+      "path": "Samples~/ComponentsSample"
+    },
+    {
+      "displayName": "Utility usage",
+      "description": "Contains sample of usage of DOTweenUtility",
+      "path": "Samples~/UtilitySample"
+    }
+  ],
+  "author": {
+    "name": "Pavel Sborshchikov",
+    "email": "ewigedreamer@gmail.com",
+    "url": "https://github.com/EwigeDreamer"
+  }
+}

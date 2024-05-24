@@ -1,0 +1,16 @@
+{
+    "name": "ewigedreamer.dotweenutility.utility.sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b85d05537b7f9450c839fff0f525b2c7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
