@@ -8,6 +8,6 @@ To use this in your Unity project import it from Unity Package Manager. You can 
 
 ## Dependensies
 
-[DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) or [DOTween Pro](https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416)
-[Unity Math Curves](https://github.com/EwigeDreamer/unity-mathcurves)
-[Unity Extensions](https://github.com/EwigeDreamer/unity-extensions)
+### [DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) or [DOTween Pro](https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416)
+### [Unity Math Curves](https://github.com/EwigeDreamer/unity-mathcurves)
+### [Unity Extensions](https://github.com/EwigeDreamer/unity-extensions)
