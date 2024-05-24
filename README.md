@@ -1,4 +1,4 @@
-# Unity Extensions
+# DOTween Utility
 
 This is DOTweenUtility which contains some tween functions and extensions.
 
