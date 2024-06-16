@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using DG.Tweening;
-using EwigeDreamer.Extensions.System;
+using ED.Extensions.System;
 using UnityEngine;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
 	[RequireComponent(typeof(RectTransform))]
 	public class FloaterUI : MonoBehaviour

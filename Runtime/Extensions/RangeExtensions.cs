@@ -1,8 +1,8 @@
-using EwigeDreamer.Extensions.System;
+using ED.Extensions.System;
 using UnityEngine;
 using Random = System.Random;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     internal static class RangeExtensions
     {

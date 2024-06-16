@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     public class Pulsar : MonoBehaviour
     {

@@ -3,7 +3,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace EwigeDreamer.Tweening.Samples
+namespace ED.Tweening.Samples
 {
     public class UtilitySample : MonoBehaviour
     {

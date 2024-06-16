@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     [RequireComponent(typeof(RectTransform))]
     public class ShakerUI : MonoBehaviour

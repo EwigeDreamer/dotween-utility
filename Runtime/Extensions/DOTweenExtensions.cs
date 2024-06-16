@@ -1,7 +1,7 @@
 using System;
 using DG.Tweening;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     public static class DOTweenExtensions
     {

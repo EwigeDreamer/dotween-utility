@@ -2,11 +2,11 @@ using System;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
-using EwigeDreamer.Curves;
-using EwigeDreamer.Extensions.Unity;
+using ED.Curves;
+using ED.Extensions.Unity;
 using UnityEngine;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     public static class DOTweenUtility
     {

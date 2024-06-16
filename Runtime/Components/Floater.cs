@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using DG.Tweening;
-using EwigeDreamer.Extensions.System;
-using EwigeDreamer.Extensions.Unity;
+using ED.Extensions.System;
+using ED.Extensions.Unity;
 using UnityEngine;
 
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
 	public class Floater : MonoBehaviour
 	{

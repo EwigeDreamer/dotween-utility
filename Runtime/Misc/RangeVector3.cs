@@ -1,4 +1,4 @@
-namespace EwigeDreamer.Tweening
+namespace ED.Tweening
 {
     [System.Serializable]
     internal struct RangeVector3
@@ -25,7 +25,7 @@ namespace EwigeDreamer.Tweening
 #if UNITY_EDITOR
     namespace Editor
     {
-        using EwigeDreamer.Extensions.Unity;
+        using ED.Extensions.Unity;
         using UnityEngine;
         using UnityEditor;
 

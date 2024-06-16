@@ -1,7 +1,7 @@
 {
   "name": "com.ewigedreamer.dotweenutility",
-  "version": "1.0.2",
-  "displayName": "DOTween Utility",
+  "version": "1.0.3",
+  "displayName": "ED Unity DOTween Utility",
   "description": "Utility for DOTween Package",
   "unity": "2021.3",
   "documentationUrl": "",
