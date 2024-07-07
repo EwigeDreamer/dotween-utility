@@ -1,3 +1,9 @@
+## [1.0.4] - 2024-07-07
+
+### Fixed
+
+- Problem with DOTween modules asmdef
+
 ## [1.0.3] - 2024-06-17
 
 ### Fixed
