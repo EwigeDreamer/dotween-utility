@@ -1,9 +1,10 @@
 {
     "name": "ewigedreamer.dotweenutility",
-    "rootNamespace": "",
+    "rootNamespace": "ED",
     "references": [
-        "GUID:c24d8e274df364820b23d9146eb07ab3",
-        "GUID:3fdaae44b9a6644f99d90a2da629f839"
+        "ewigedreamer.mathcurves",
+        "ewigedreamer.extensions",
+        "DOTween.Modules"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

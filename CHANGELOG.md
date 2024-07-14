@@ -1,3 +1,9 @@
+## [1.0.5] - 2024-07-15
+
+### Fixed
+
+- asmdef reference on DOTween.Modules
+
 ## [1.0.4] - 2024-07-07
 
 ### Fixed
