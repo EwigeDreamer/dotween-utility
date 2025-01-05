@@ -1,4 +1,8 @@
-namespace ED.Tweening
+using ED.Extensions.Unity;
+using UnityEditor;
+using UnityEngine;
+
+namespace ED.Tweening.Misc
 {
     [System.Serializable]
     internal struct RangeVector2
@@ -22,10 +26,6 @@ namespace ED.Tweening
 #if UNITY_EDITOR
     namespace Editor
     {
-        using ED.Extensions.Unity;
-        using UnityEngine;
-        using UnityEditor;
-
         [CustomPropertyDrawer(typeof(RangeVector2))]
         internal class RangeVector2Drawer : PropertyDrawer
         {

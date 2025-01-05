@@ -1,44 +1,44 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace ED.Tweening
+namespace ED.Tweening.Components
 {
     public class Spinner : MonoBehaviour
     {
         [SerializeField]
-        private Vector3 axis = Vector3.forward;
+        private Vector3 _axis = Vector3.forward;
         [SerializeField]
-        private float speed = 1f;
+        private float _speed = 1f;
 
-        private Tween tween;
+        private Tween _tween;
 
         private void Awake() {
-            tween = DOTween.To(
+            _tween = DOTween.To(
                     () => 0f,
                     SetAngle,
-                    360f * Mathf.Sign(speed),
-                    Mathf.Abs(360f / speed))
+                    360f * Mathf.Sign(_speed),
+                    Mathf.Abs(360f / _speed))
                 .SetLoops(-1, LoopType.Restart)
                 .SetEase(Ease.Linear);
         }
 
-        private void OnEnable() => tween?.Play();
-        private void OnDisable() => tween?.Pause();
+        private void OnEnable() => _tween?.Play();
+        private void OnDisable() => _tween?.Pause();
 
         private void OnDestroy() {
-            tween?.Kill();
-            tween = null;
+            _tween?.Kill();
+            _tween = null;
         }
 
         private void SetAngle(float angle) {
-            transform.localRotation = Quaternion.AngleAxis(angle, axis);
+            transform.localRotation = Quaternion.AngleAxis(angle, _axis);
         }
         
         #if UNITY_EDITOR
         private void OnDrawGizmos() {
             var parent = transform.parent;
             var parentRotation = parent != null ? parent.rotation : Quaternion.identity;
-            var normal = parentRotation * axis.normalized;
+            var normal = parentRotation * _axis.normalized;
             var point = transform.position;
             var color = Color.green;
 

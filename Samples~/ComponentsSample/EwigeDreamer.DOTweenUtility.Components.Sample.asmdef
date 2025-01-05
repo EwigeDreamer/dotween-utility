@@ -1,11 +1,7 @@
 {
-    "name": "ewigedreamer.dotweenutility",
-    "rootNamespace": "ED",
-    "references": [
-        "ewigedreamer.mathcurves",
-        "ewigedreamer.extensions",
-        "DOTween.Modules"
-    ],
+    "name": "EwigeDreamer.DOTweenUtility.Components.Sample",
+    "rootNamespace": "ED.Tweening",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

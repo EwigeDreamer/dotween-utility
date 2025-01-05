@@ -1,7 +1,8 @@
 using System;
 using DG.Tweening;
+using ED.Tweening.Utilities;
 
-namespace ED.Tweening
+namespace ED.Tweening.Extensions
 {
     public static class DOTweenExtensions
     {
@@ -12,15 +13,15 @@ namespace ED.Tweening
 
         private class DisposableTween<T> : IDisposable where T : Tween
         {
-            private readonly T tween;
-            private readonly bool complete;
+            private readonly T _tween;
+            private readonly bool _complete;
             public DisposableTween(T tween, bool complete) {
-                this.tween = tween;
-                this.complete = complete;
+                _tween = tween;
+                _complete = complete;
                 tween.AddOnComplete(() => tween = null);
             }
             public void Dispose() {
-                tween?.Kill(complete);
+                _tween?.Kill(_complete);
             }
         }
     }

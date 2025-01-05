@@ -1,8 +1,9 @@
 using ED.Extensions.System;
+using ED.Tweening.Misc;
 using UnityEngine;
 using Random = System.Random;
 
-namespace ED.Tweening
+namespace ED.Tweening.Extensions
 {
     internal static class RangeExtensions
     {

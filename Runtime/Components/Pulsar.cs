@@ -1,35 +1,37 @@
 using DG.Tweening;
+using ED.Tweening.Utilities;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-namespace ED.Tweening
+namespace ED.Tweening.Components
 {
     public class Pulsar : MonoBehaviour
     {
         [SerializeField]
-        private float scale = 1.5f;
+        private float _scale = 1.5f;
         [SerializeField]
-        private float period = 1f;
+        private float _period = 1f;
         
-        private Tween tween;
+        private Tween _tween;
 
         private void Awake() {
             var from = transform.localScale;
-            var to = from * scale;
-            tween = DOTweenUtility.DoVector3(
+            var to = from * _scale;
+            _tween = DOTweenUtility.DoVector3(
                     () => from,
                     v => transform.localScale = v,
                     () => to,
-                    period / 2f)
+                    _period / 2f)
                 .SetLoops(-1, LoopType.Yoyo)
                 .SetEase(Ease.InOutSine);
         }
 
-        private void OnEnable() => tween?.Play();
-        private void OnDisable() => tween?.Pause();
+        private void OnEnable() => _tween?.Play();
+        private void OnDisable() => _tween?.Pause();
 
         private void OnDestroy() {
-            tween?.Kill();
-            tween = null;
+            _tween?.Kill();
+            _tween = null;
         }
     }
 }

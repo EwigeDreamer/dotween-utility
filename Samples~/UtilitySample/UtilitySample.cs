@@ -1,9 +1,10 @@
 using System.Collections;
 using DG.Tweening;
+using ED.Tweening.Utilities;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace ED.Tweening.Samples
+namespace ED.Tweening.Samples.UtilitySample
 {
     public class UtilitySample : MonoBehaviour
     {

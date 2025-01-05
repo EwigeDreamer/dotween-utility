@@ -6,7 +6,7 @@ using ED.Curves;
 using ED.Extensions.Unity;
 using UnityEngine;
 
-namespace ED.Tweening
+namespace ED.Tweening.Utilities
 {
     public static class DOTweenUtility
     {

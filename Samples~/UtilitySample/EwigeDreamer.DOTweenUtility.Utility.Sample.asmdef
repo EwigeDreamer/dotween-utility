@@ -1,8 +1,8 @@
 {
-    "name": "ewigedreamer.dotweenutility.utility.sample",
-    "rootNamespace": "",
+    "name": "EwigeDreamer.DOTweenUtility.Utility.Sample",
+    "rootNamespace": "ED.Tweening",
     "references": [
-        "GUID:b85d05537b7f9450c839fff0f525b2c7"
+        "EwigeDreamer.DOTweenUtility"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

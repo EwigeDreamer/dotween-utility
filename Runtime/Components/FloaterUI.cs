@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using ED.Extensions.System;
+using ED.Tweening.Extensions;
+using ED.Tweening.Misc;
 using UnityEngine;
 
-namespace ED.Tweening
+namespace ED.Tweening.Components
 {
 	[RequireComponent(typeof(RectTransform))]
 	public class FloaterUI : MonoBehaviour

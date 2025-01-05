@@ -2,9 +2,11 @@ using System.Collections.Generic;
 using DG.Tweening;
 using ED.Extensions.System;
 using ED.Extensions.Unity;
+using ED.Tweening.Extensions;
+using ED.Tweening.Misc;
 using UnityEngine;
 
-namespace ED.Tweening
+namespace ED.Tweening.Components
 {
 	public class Floater : MonoBehaviour
 	{
